@@ -1,0 +1,63 @@
+.StartMenu {
+  display: flex;
+  justify-content: center;
+  will-change: transform;
+}
+
+.StartMenuLogo {
+  position: absolute;
+  z-index: 1;
+  transform: scale(1.22);
+  transform-origin: top;
+  margin-top: -113px;
+  margin-left: 4px;
+}
+
+.StartMenuBackground {
+  position: absolute;
+  transform: scale(0.9);
+  transform-origin: top;
+  margin-top: 3vh;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40vh;
+  z-index: 2;
+}
+
+.StartMenuButton {
+  transform: scale(0.75);
+  transform-origin: top;
+  margin-top: -33px;
+}
+
+.StartMenuButton span {
+  position: absolute;
+  left: 45px;
+  top: 4.5vh;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+.StartMenuButton .StartMenuIndicator {
+  position: absolute;
+  top: 3vh;
+  right: 45px;
+}
+
+.StartMenuIndicator {
+  transform: scale(0.85);
+  width: 130px;
+}
+
+.StartMenuIndicator div {
+  animation: rotation 0.9s infinite linear;
+}
+
+@keyframes rotation {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
