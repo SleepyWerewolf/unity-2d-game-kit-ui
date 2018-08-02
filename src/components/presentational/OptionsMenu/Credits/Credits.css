@@ -1,0 +1,43 @@
+.Credits {
+  border: 1px solid saddlebrown;
+  background-color: #573e26;
+  overflow: hidden;
+  width: 52%;
+  height: 63%;
+  position: relative;
+  top: 37px;
+  left: 425px;
+}
+
+.CreditsContainer {
+  font-size: 24px;
+  padding: 10px;
+  animation: moveSlideshow 15s linear infinite;
+  will-change: transform;
+}
+
+.CreditsContainer b, .CreditsContainer ul li {
+  text-align: left;
+}
+
+.CreditsContainer b {
+  display: block;
+}
+
+.CreditsContainer ul {
+  margin-top: 30px;
+  padding: 0;
+}
+
+.CreditsContainer ul li {
+  list-style: none;
+}
+
+@keyframes moveSlideshow {
+  0% {
+    transform: translateY(50%);
+  }
+  100% { 
+    transform: translateY(-100%);
+  }
+}

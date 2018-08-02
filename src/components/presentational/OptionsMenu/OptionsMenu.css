@@ -1,0 +1,36 @@
+.OptionsMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.OptionsMenuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1420px;
+  height: 900px;
+}
+
+.OptionsMenuContainer main {
+  margin-top: 79px;
+  height: 461px;
+  width: 986px;
+  display: flex;
+  flex-direction: row;
+}
+
+.OptionsMenuContainer header {
+  position: relative;
+  top: 58px;
+  right: 310px;
+  font-weight: bold;
+  font-size: 60px;
+}
