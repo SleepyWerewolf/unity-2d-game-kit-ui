@@ -1,8 +1,10 @@
 import React from 'react';
 import { SpriteSheet } from 'react-spritesheet';
 import { default as AnimatedSpriteSheet } from 'react-responsive-spritesheet';
+
 import logoSpriteSheet from './StartLogo.png';
 import menuSpriteSheet from './StartMenu.png';
+
 import './StartMenu.css';
 
 const { Component } = React;
